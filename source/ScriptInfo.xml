@@ -1,0 +1,95 @@
+<ScriptInfo>	
+	<Information>
+		<Name>FUCScripts</Name>
+		<Description>Special functions for FUC chat</Description>
+		<AboutUrl>thissitereally.isgreat.org</AboutUrl>
+		<Version>1.11</Version>
+	</Information>
+	
+	<ScriptCommands>
+		<Command>
+			<Name>attachFUC</Name>
+			<Description>Find FUC Window</Description>
+		</Command>
+		<Command>
+			<Name>unattachFUC</Name>
+			<Description>Disconnect FUC Window</Description>
+		</Command>	
+		<Command>
+			<Name>disableremote</Name>
+			<Description>Disable people from chatting as you.</Description>
+		</Command>	
+		<Command>
+			<Name>enableremote</Name>
+			<Description>Enable people chatting as you.</Description>
+		</Command>	
+		<Command>
+			<Name>disablegreeting</Name>
+			<Description>Disable auto greeting.</Description>
+		</Command>	
+		<Command>
+			<Name>enabledetect</Name>
+			<Description>Enable name change detection.</Description>
+		</Command>	
+		<Command>
+			<Name>disabledetect</Name>
+			<Description>Disable name change detection.</Description>
+		</Command>	
+		<Command>
+			<Name>enablegreeting</Name>
+			<Description>Enable auto greeting message.</Description>
+		</Command>
+		<Command>
+			<Name>enablemarco</Name>
+			<Description>Enable response to #MARCO.</Description>
+		</Command>
+		<Command>
+			<Name>disablemarco</Name>
+			<Description>Disable response to #MARCO.</Description>
+		</Command>	
+		<Command>
+			<Name>enableall</Name>
+			<Description>Enable all features.</Description>
+		</Command>	
+		<Command>	
+			<Name>disableall</Name>
+			<Description>Disable all features.</Description>
+		</Command>
+		<Command>
+			<Name>setFUCsecurity</Name>
+			<Description>Set FUC Security level.</Description>
+			<Parameters>&lt;level&gt;</Parameters>
+		</Command>		
+		<Command>
+			<Name>enable</Name>
+			<Description>Generic enable of an option.</Description>
+			<Parameters>&lt;feature&gt;</Parameters>
+		</Command>	
+		<Command>
+			<Name>disable</Name>
+			<Description>Generic disable of an option.</Description>
+			<Parameters>&lt;feature&gt;</Parameters>
+		</Command>
+		<Command>
+			<Name>enableFUConly</Name>
+			<Description>Only allow FUC members to use remote commands.</Description>
+		</Command>
+		<Command>
+			<Name>disableFUConly</Name>
+			<Description>Allow anyone to use remote commands.</Description>
+		</Command>
+		<Command>
+			<Name>enabletalkas</Name>
+			<Description>Talk in the style of someone else.</Description>
+			<Parameters>&lt;person&gt;</Parameters>
+		</Command>
+		<Command>
+			<Name>disabletalkas</Name>
+			<Description>Disable talk style changes.</Description>
+		</Command>
+		<Command>
+			<Name>greetall</Name>
+			<Description>Greet all members of FUC chat who are on.</Description>
+		</Command>
+	</ScriptCommands>
+</ScriptInfo>
